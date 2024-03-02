@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="IRVING"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-02 01:46:14 p. m."/>
+        <attribute name="created" value="SVJWSU5HO0lSVklORzsyMDI0LTAzLTAyOzAxOjMyOjE1IHAuIG0uOzIzODM="/>
+        <attribute name="edited" value="SVJWSU5HO0lSVklORzsyMDI0LTAzLTAyOzAxOjQ2OjE0IHAuIG0uOzE7MjQ5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Edad" type="Integer" array="False" size=""/>
+            <declare name="Nombre" type="String" array="False" size=""/>
+            <declare name="Salario" type="Real" array="False" size=""/>
+            <assign variable="Edad" expression="18"/>
+            <assign variable="Nombre" expression="&quot;Irving Yael Valles Zu&#241;iga&quot;"/>
+            <assign variable="Salario" expression="20000"/>
+            <output expression="edad" newline="True"/>
+            <output expression="nombre" newline="True"/>
+            <output expression="Salario" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
